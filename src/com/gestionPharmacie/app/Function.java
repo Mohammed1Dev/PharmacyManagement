@@ -103,7 +103,7 @@ public class Function {
 			
 			if(this.pharmacist.get(i) != null) {
 				
-				result = "+----------+---------------+----------------+-----------------+---------------+\n"+this.pharmacist.get(i).toString();
+				result += "\n+----------+---------------+----------------+-----------------+---------------+\n"+this.pharmacist.get(i).toString();
 			}else {
 				result =  "The Pharmacist List is Empty ...Please fill it.!!!";
 			}
